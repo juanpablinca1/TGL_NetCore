@@ -13,7 +13,7 @@ namespace TGLWebApp.Data
         {
             Students.Add(new Student
             {
-                Id = Guid.NewGuid(),
+                
                 Age = 17,
                 Name = "Juan Pablo",
                 LastName = "Hincapie",
@@ -22,7 +22,7 @@ namespace TGLWebApp.Data
 
             Students.Add(new Student
             {
-                Id = Guid.NewGuid(),
+                
                 Age = 17,
                 Name = "Jacobo",
                 LastName = "Lopera",
@@ -31,13 +31,18 @@ namespace TGLWebApp.Data
 
             Students.Add(new Student
             {
-                Id = Guid.NewGuid(),
+                
                 Age = 17,
                 Name = "Manuela",
                 LastName = "Rojas",
                 Nit = "xxx",
             });
             
+        }
+
+        internal void AddStudent(Student student)
+        {
+            Students.Add(student);
         }
 
         internal void DeleteStudent(Guid id)

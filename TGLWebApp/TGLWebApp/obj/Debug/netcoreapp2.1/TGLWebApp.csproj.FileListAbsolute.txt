@@ -34,3 +34,4 @@ C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\D
 C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\TGLWebApp.pdb
 C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\TGLWebApp.csproj.CopyComplete
 C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Index.cshtml.g.cs
+C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Add.cshtml.g.cs
