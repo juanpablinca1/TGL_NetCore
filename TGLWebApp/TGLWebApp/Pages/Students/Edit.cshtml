@@ -1,12 +1,13 @@
 ﻿@page
-@model TGLWebApp.Pages.Students.AddModel
+@model TGLWebApp.Pages.Students.EditModel
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "Edit";
 }
 
-<h2>Add</h2>
+<h2>Edit</h2>
 <div class="row">
     <form class="col s12" method="post">
+        <input hidden asp-for="Student.Id" />
         <div class="input-field col s6">
             <i class="material-icons prefix">account_circle</i>
             <input id="first_name" type="text" class="validate" asp-for="Student.Name">
@@ -21,27 +22,29 @@
                 <input id="nit" type="text" class="validate" asp-for="Student.Nit">
                 <label for="nit">Nit</label>
             </div>
+        
             <div class="input-field col s6">
                 <input id="age" type="number" class="validate" asp-for="Student.Age">
                 <label for="nit">Age</label>
             </div>
         </div>
+        
 
 
 
 
-            <!--Name
-    <input class="col s6" asp-for="Student.Name" />
-    Last Name
-    <input class="col s6" asp-for="Student.LastName" />
-            Nit
-            <input asp-for="Student.Nit" />
-            Age
-            <input asp-for="Student.Age" />-->
-            <button class="waves-effect waves-light btn" type="submit">
-                Save
-            </button>
-</form>
+        <!--Name
+        <input class="col s6" asp-for="Student.Name" />
+        Last Name
+        <input class="col s6" asp-for="Student.LastName" />
+                Nit
+                <input asp-for="Student.Nit" />
+                Age
+                <input asp-for="Student.Age" />-->
+        <button class="waves-effect waves-light btn" type="submit">
+            Save
+        </button>
+    </form>
 </div>
 <a asp-page="./Index">Return to list</a>
 

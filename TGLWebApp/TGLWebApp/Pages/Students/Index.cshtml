@@ -4,39 +4,47 @@
 @{
 }
 <h1>Students</h1>
-<form method="post">
+<div >
+    <form method="post">
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>LastName</th>
-                <th>Nit</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Students)
-            {
+        <table>
+            <thead>
                 <tr>
-                    <td>@item.Id</td>
-                    <td>@item.Name</td>
-                    <td>@item.LastName</td>
-                    <td>@item.Nit</td>
-                    <td>@item.Age</td>
-                    <td>
-                        <button type="submit" asp-page-handler="delete" asp-route-id="@item.Id">
-                            delete
-                        </button>
-                    </td>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>LastName</th>
+                    <th>Nit</th>
+                    <th>Age</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Students)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.LastName</td>
+                        <td>@item.Nit</td>
+                        <td>@item.Age</td>
+                        <td>
+                            <a class="waves-effect waves-light btn" asp-page="Edit" asp-route-id="@item.Id">
+                                Edit
+                            </a>
+                        </td>
+                        <td>
+                            <button class="waves-effect waves-light btn" type="submit" asp-page-handler="delete" asp-route-id="@item.Id">
+                                delete
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
-</form>
+    </form>
 
+</div>
 <a asp-page="Add">Create new Student</a>
+
 
 
