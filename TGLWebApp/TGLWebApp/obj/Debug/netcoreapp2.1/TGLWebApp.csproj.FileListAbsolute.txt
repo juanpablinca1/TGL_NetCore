@@ -36,3 +36,8 @@ C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\D
 C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Index.cshtml.g.cs
 C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Add.cshtml.g.cs
 C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Edit.cshtml.g.cs
+C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Computers\Add.cshtml.g.cs
+C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Computers\Edit.cshtml.g.cs
+C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Computers\Index.cshtml.g.cs
+C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\bin\Debug\netcoreapp2.1\TGLWebApp.xml
+C:\Users\Juan Pablo Hincapie\Documents\TGL\TGL_NetCore\TGLWebApp\TGLWebApp\obj\Debug\netcoreapp2.1\TGLWebApp.xml

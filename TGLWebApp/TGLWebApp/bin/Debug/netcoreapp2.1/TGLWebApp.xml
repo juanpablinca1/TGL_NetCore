@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TGLWebApp</name>
+    </assembly>
+    <members>
+        <member name="M:TGLWebApp.Controllers.StudentsController.Delete(System.Guid)">
+            <summary>
+            Metodo para eliminar un estudiante por su id
+            </summary>
+            <param name="id">Identificador del estudiante</param>
+            <returns>Retorna si Ok</returns>
+        </member>
+    </members>
+</doc>
